@@ -38,4 +38,17 @@ class CharacterTest {
         assertEquals( 1, sut);
 
     }
+
+    @Test
+    void startingCharacterIsAlive() {
+
+        //GIVEN
+        Character terminator = new Character ("Terminator");
+
+        //WHEN
+        var sut = terminator.isAlive();
+
+        //THEN
+        assertEquals(true, sut);
+    }
 }

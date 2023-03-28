@@ -39,7 +39,7 @@ public class Character {
         this.level = level;
     }
 
-    public Boolean getAlive() {
+    public Boolean isAlive() {
         return this.isAlive;
     }
 
